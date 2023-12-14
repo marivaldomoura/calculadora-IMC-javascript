@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+main{
+    background-color: rgb(197, 197, 197);
+    width: 450px;
+    height: 550px;
+    border-radius: 30px;
+}
+.caixa-box{
+    margin-top: 90px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+
+}
+.caixa-box input{
+    border: none;
+    border-radius: 30px;
+    padding: 1rem .7rem;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+    width: 50%;
+    height: 40px;
+}
+.caixa-box h2{
+    margin-bottom: 40px;
+}
+label{
+    margin-top: 10px;
+}
+.btn-b{
+    margin-top: .9rem;
+    padding: 15px 25px;
+    width: 14rem;
+    background-color: aqua;
+    font-size: 1.1rem;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 30px;
+    background: transparent;
+}
+.btn-b:hover{
+    background: aliceblue;
+    color: rgb(70, 70, 70);
+}
+.total{
+    font-size: 20px;
+}
